@@ -8,9 +8,9 @@ const Footer = () => {
     <footer className="flexCenter mb-24">
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
-          <Link href="/" className="mb-10">
-            <Image src="hilink-logo.svg" alt="logo" width={74} height={29}/>
-          </Link>
+        <h1 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-black drop-shadow-sm">
+        PakVenture
+      </h1>
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
             {FOOTER_LINKS.map((columns) => (
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">2023 Hilink | All rights reserved</p>
+        <p className="regular-14 w-full text-center text-gray-30">2025 Pak Venture | All rights reserved</p>
       </div>
     </footer>
   )
